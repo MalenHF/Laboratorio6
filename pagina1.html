@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 6 Pagina 1</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" rel="stylesheet"
+        crossorigin="anonymous">
+
+    <!-- Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Tu hoja de estilos -->
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body class="bg-secondary">
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container mx-auto p-0">
+            <ul class="navbar-nav d-flex flex-row mt-3 mt-lg-0 col-md-3 col-6">
+                <li class="nav-item text-center mx-2 mx-lg-1">
+                    <a class="nav-link active p-0" href="index.html">
+                        <span class="p-0">
+                            <h3>Index</h3>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            <div class="d-flex col-auto d-none d-md-block">
+                <ul class="navbar-nav d-flex flex-row">
+                    <li class="nav-item text-center me-3">
+                        <a class="nav-link justify-content-center " aria-current="page" href="#">
+                            <h3>Pagina 1</h3>
+                        </a>
+                    </li>
+                    <li class="nav-item text-center me-3">
+                        <a class="nav-link" aria-disabled="true" href="pagina2.html">
+                            <h3>Pagina 2</h3>
+                        </a>
+                    </li>
+                    <li class="nav-item text-center me-3">
+                        <a class="nav-link" aria-disabled="true" href="pagina3.html">
+                            <h3>Pagina 3</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+
+    </nav>
+    <div class="collapse continer" id="navbarToggleExternalContent">
+        <nav class=" navbar navbar-dark bg-dark ">
+            <div class="bg-dark container">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">
+                            Pagina 1
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-disabled="true" href="pagina2.html">
+                            Pagina 2
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-disabled="true" href="pagina3.html">
+                            Pagina 3
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    <header class="container-fluid p-1 pb-0">
+        <div class="container text-white pt-2 text-center col-2 mx-auto border border-dark ">
+            <h1><b>Pagina 1 HF</b></h1>
+        </div>
+    </header>
+    <div class="container mx-auto col-5">
+        <div class="row">
+            <div class="me-3 columna1 mt-2 col-12 border border-dark border-5 bg-light">
+                <h1 class="text-center">Informacion del Servidor</h1>
+                <ul class="text-center infoServ">
+                    <li>[Latino] Hooligans Force</li>
+                    <li> IP: 192.169.89.114</li>
+                    <li>PUERTO: 26900</li>
+                    <li>DISCORD: https://discord.gg/fCQ6tPD</li>
+                    <li>Dificultad: Demente (INSANE)</li>
+                    <li>Experiencia: 100% (150% de 1 al 100).</li>
+                    <li>Loot chance: 100%</li>
+                    <li>PVP los domingo con mochila y base protegida-(el pvp es para eventos y pasar el rato)</li>
+                    <li>Soltar al Morir: Nada</li>
+                    <li>Salud del Cubos de territorio: Infinita</li>
+                    <li>Números de Cubos de territorio: 9</li>
+                    <li>Espacio de Cubo de territorio: 41 x 41</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row text-center">
+            <p class="text-center ">
+                <a class="btn btn-dark btn-lg" data-bs-toggle="collapse" href="#AAA" role="button" aria-expanded="false"
+                    aria-controls="collapseExample">
+                    Extra Info
+                </a>
+            </p>
+            <div class="col-12 collapse" id="AAA">
+                <div class="row">
+                    <div class="columna1 col-lg-4 col-12 text-center ">
+                        <div class="card">
+                            <h5 class="card-header h4"><b>Mapas del Servidor!<img src="img/map.png"
+                                        class="card-img-top mt-1" alt="..."></b></h5>
+
+                            <div class="card-body">
+                                <h5 class="card-title">Mapa de localizacion!</b></h5>
+                                <a href="http://192.169.89.114:5402/static/index.html" class="btn btn-success "
+                                    target="_blank">Localizacion</a>
+                                <p></p>
+                                <h5 class="card-title">Mapa de Zonas de reinicio!</b></h5>
+                                <a href="http://192.169.89.114:5403/static/index.html" class="btn btn-success"
+                                    target="_blank">Zonas de
+                                    reinicio</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="columna3 col-lg-4 col-12 text-center">
+                        <div class="card">
+                            <h5 class="card-header h4"><b>Donaciones!<p class="mb-4"></p> <img src="img/donate.png" class="card-img-top mt-1"
+                                        alt="..."></b></h4>
+                            </h5>
+
+                            <div class="card-body">
+                                <h5 class="card-title">Apoya a nuestro servidor!</b></h5>
+                                <p class="card-text">Como agradecimiento por donar se te daran items especiales en el
+                                    servidor!
+                                </p>
+                                <a href="https://www.paypal.com/paypalme/pagaleamalenxd" class="btn btn-info"
+                                    target="_blank">Paypal</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columna2 col-lg-4 col-12 text-center">
+                        <div class="card">
+                            <h5 class="card-header h4"><b>Vota por el servidor! <img src="img/vote.png"
+                                        class="card-img-top mt-1" alt="..."></b></h5>
+                            <div class="card-body">
+                                <h5 class="card-title">Consigue recompensas al votar!</b></h5>
+                                <p class="card-text">Con cada votacion podras recibir recompensas in game!
+                                </p>
+                                <a href="https://7daystodie-servers.com/server/90295/" class="btn btn-primary"
+                                    target="_blank">Votar!</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+
+
+
+
+    </div>
+
+
+
+
+    <!-- Cajas -->
+
+    <!-- Instructores -->
+
+    <!-- Carrusel  -->
+
+    <!-- Modal -->
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+        integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>

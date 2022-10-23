@@ -1,0 +1,50 @@
+ul.infoServ {
+    list-style-type: none;
+}
+
+.offcanvas-bottom {
+    right: 0;
+    left: 0;
+    height: 45vh;
+    max-height: 100%;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    transform: translateY(100%)
+}
+
+.offcanvas {
+    position: fixed;
+    bottom: 0;
+    z-index: 1050;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    visibility: hidden;
+    background-color: #fff;
+    background-clip: padding-box;
+    outline: 0;
+    transition: transform .3s ease-in-out
+}
+
+img.d-block {    
+    height: 25vh;
+    max-width: 70vh;
+    margin: auto;
+  }
+  #carouselExampleIndicators{
+    height: 25vh;
+    max-width: 70vh;
+    margin: auto;
+  }
+  @media (min-width: 768px){
+    img.d-block {    
+      height: 50vh;
+    }
+    #carouselExampleIndicators{
+      height: 50vh;    
+    }
+  }
+
+.imgPg2{
+    width: 40vh;
+    height: 40vh;
+}

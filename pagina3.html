@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 6 Pagina 3</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" rel="stylesheet"
+        crossorigin="anonymous">
+
+    <!-- Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Tu hoja de estilos -->
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body class="bg-secondary">
+    <!-- Navbar -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container mx-auto p-0">
+            <ul class="navbar-nav d-flex flex-row mt-3 mt-lg-0 col-md-3 col-6">
+                <li class="nav-item text-center mx-2 mx-lg-1">
+                    <a class="nav-link active p-0" href="index.html">
+                        <span class="p-0">
+                            <h3>Index</h3>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+            <div class="d-flex col-auto d-none d-md-block">
+                <ul class="navbar-nav d-flex flex-row">
+                    <li class="nav-item text-center me-3">
+                        <a class="nav-link justify-content-center " aria-current="page" href="pagina1.html">
+                            <h3>Pagina 1</h3>
+                        </a>
+                    </li>
+                    <li class="nav-item text-center me-3">
+                        <a class="nav-link" aria-disabled="true" href="pagina2.html">
+                            <h3>Pagina 2</h3>
+                        </a>
+                    </li>
+                    <li class="nav-item text-center me-3">
+                        <a class="nav-link" aria-disabled="true" href="#">
+                            <h3>Pagina 3</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+
+    </nav>
+    <div class="collapse continer" id="navbarToggleExternalContent">
+        <nav class=" navbar navbar-dark bg-dark ">
+            <div class="bg-dark container">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="pagina1.html">
+                            Pagina 1
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-disabled="true" href="pagina2.html">
+                            Pagina 2
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-disabled="true" href="#">
+                            Pagina 3
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    <header class="container-fluid p-4">
+        <div class="container text-white pb-2 pt-2 text-center col-3 mx-auto border border-dark ">
+            <h1><b>Pagina 3 HF</b></h1>
+        </div>
+    </header>
+    <div id="carouselExampleIndicators" class="carousel slide sizeMed" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/img1.png" class="d-block w-100 img-thumbnail img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/img2.png" class="d-block w-100 img-thumbnail img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/img3.png" class="d-block w-100 img-thumbnail img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/img4.png" class="d-block w-100 img-thumbnail img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/img5.png" class="d-block w-100 img-thumbnail img-fluid" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="accordion accordion-flush row m-0" id="accordionFlushExample">
+            <div class="accordion-item col-4 m-0 p-0 border border-light">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed bg-dark text-white" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                        aria-controls="flush-collapseOne">
+                        Nuevos items
+                    </button>
+                </h2>
+
+            </div>
+            <div class="accordion-item col-4 m-0 p-0 border border-light">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed bg-dark text-white" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                        aria-controls="flush-collapseTwo">
+                        Nuevos Enemigos
+                    </button>
+                </h2>
+
+            </div>
+            <div class="accordion-item col-4 m-0 p-0 border border-light">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed bg-dark text-white" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                        aria-controls="flush-collapseThree">
+                        Eventos
+                    </button>
+                </h2>
+
+            </div>
+            <div id="flush-collapseOne" class="accordion-collapse collapse bg-dark text-white"
+                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">INFORMACION de nuevos items en el servidor y pues... <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident nihil, porro illum
+                        doloremque aliquam in labore. Quam minus magnam, fuga, modi accusamus reiciendis, hic pariatur
+                        laboriosam vel ullam a iusto!
+                    </p>
+                </div>
+            </div>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse bg-dark text-white"
+                aria-labelledby="flush-collapseTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Enemigos especiales que no encontraras en otro lado y mas...
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit repudiandae aspernatur excepturi
+                        accusamus nihil blanditiis, atque ea eos corporis vitae optio, obcaecati ipsa explicabo
+                        praesentium, non nobis alias facere. Sequi.</p>
+
+                </div>
+            </div>
+            <div id="flush-collapseThree" class="accordion-collapse collapse bg-dark text-white"
+                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">No te pierdas de los mejores eventos de la comunidad solo en nuestro
+                    servidor donde podras...
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta mollitia non ullam quod ea ipsum
+                        perferendis aliquid recusandae quasi possimus sunt quo maxime a repellat doloremque porro,
+                        commodi aspernatur enim!</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <hr>
+
+
+
+    <!-- Cajas -->
+
+    <!-- Instructores -->
+
+    <!-- Carrusel  -->
+
+    <!-- Modal -->
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+        integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
